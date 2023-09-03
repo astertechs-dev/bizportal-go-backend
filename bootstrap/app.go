@@ -1,6 +1,8 @@
 package bootstrap
 
-import "github.com/astertechs-dev/bizportal-go-backend/mongo"
+import (
+	"github.com/astertechs-dev/bizportal-go-backend/infrastructure/database/mongo"
+)
 
 type Application struct {
 	Env   *Env

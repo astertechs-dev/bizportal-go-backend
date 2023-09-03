@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/astertechs-dev/bizportal-go-backend/bootstrap"
-	"github.com/astertechs-dev/bizportal-go-backend/mongo"
+	"github.com/astertechs-dev/bizportal-go-backend/infrastructure/database/mongo"
 	"github.com/gin-gonic/gin"
 )
 
